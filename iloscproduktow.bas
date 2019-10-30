@@ -1,5 +1,7 @@
 Attribute VB_Name = "Module1"
 Function ILOSCPRODUKTOW(str As String)
+  'A2 = jajko,maslo,pomidor
+  'ILOSCPRODUKTOW(A2) = 3
 Dim num As Integer
 num = 0
 g = Len(str)
