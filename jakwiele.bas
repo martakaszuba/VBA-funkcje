@@ -1,5 +1,10 @@
 Attribute VB_Name = "Module1"
 Function JAKWIELE(rng As Range, txt As String)
+  
+  '             A                      B
+  ' 1  Komedia, Dramat, Romans      = JAKWIELE(A1:A2;"Komedia")
+  ' 2  Komedia, Romans
+  
 Dim str As String
 str = ""
 Dim num As Integer
