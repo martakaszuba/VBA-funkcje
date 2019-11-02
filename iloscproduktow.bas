@@ -1,7 +1,7 @@
 Attribute VB_Name = "Module1"
 Function ILOSCPRODUKTOW(str As String)
   '            A                          B
-  ' 1     jajko,maslo,pomidor       =ILOSCPRODUKTOW(A2) => 3
+  ' 1     jajko,maslo,pomidor       =ILOSCPRODUKTOW(A1) => 3
 
 Dim num As Integer
 num = 0
