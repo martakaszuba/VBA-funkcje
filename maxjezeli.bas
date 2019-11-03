@@ -1,12 +1,13 @@
 Attribute VB_Name = "Module1"
-Function MAXJEZELI(str As String)
+Function maxjezeli(rng As Range, txt As String)
+Dim num As Integer
 num = 0
-For Each el In Range("B2:C20")
-If el.Value = str Then
+For Each el In rng
+If el.Value = txt Then
 If el.Offset(0, 1).Value > num Then
-num = el.Offset(0, 1)
+num = el.Offset(0, 1).Value
 End If
 End If
 Next
-MAXJEZELI = num
+maxjezeli = num
 End Function
