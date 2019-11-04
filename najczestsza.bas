@@ -6,7 +6,7 @@ Function NAJCZESTSZA(rng As Variant)
 ' 1           Wojtek              =NAJCZESTSZA(A1:A5) =>Wojtek,Magda
 ' 2           Magda
 ' 3           Wojtek
-' 4           Rafa³
+' 4           Rafał
 ' 5           Magda
 
 Dim num As Integer
