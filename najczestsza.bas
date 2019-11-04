@@ -50,7 +50,7 @@ End If
 Next
 
 If maxc = 1 Then
-NAJCZESTSZA = "Same unikalne wartoœci"
+NAJCZESTSZA = "Same unikaty"
 Else
 For Each el3 In myCol
 g = Split(el3, ":")
