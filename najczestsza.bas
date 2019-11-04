@@ -1,12 +1,12 @@
 Attribute VB_Name = "Module1"
 Function NAJCZESTSZA(rng As Variant)
-'oblicza najczêœciej wystêpuj¹c¹ wartoœæ/wartoœci
+  'oblicza najczÄ™Å›ciej wystÄ™pujÄ…cÄ… wartoÅ›Ä‡/wartoÅ›ci
 
 '                A                     B
 ' 1           Wojtek              =NAJCZESTSZA(A1:A5) =>Wojtek,Magda
 ' 2           Magda
 ' 3           Wojtek
-' 4           Rafa³
+' 4           RafaÂ³
 ' 5           Magda
 
 Dim num As Integer
@@ -50,7 +50,7 @@ End If
 Next
 
 If maxc = 1 Then
-NAJCZESTSZA = "Same unikalne wartoœci"
+NAJCZESTSZA = "Same unikalne wartoÅ“ci"
 Else
 For Each el3 In myCol
 g = Split(el3, ":")
@@ -58,6 +58,6 @@ If g(1) = maxc Then
 finalStr = finalStr & "," & g(0)
 End If
 Next
-NAJCZESTSZA = Mid(finalStr, 2, 100)
+NAJCZESTSZA = Mid(finalStr, 2, 500)
 End If
 End Function
