@@ -2,7 +2,7 @@ Attribute VB_Name = "Module1"
 Function MAXJEZELI(zakres As Range, kryteria As String, odleglosc As Integer)
 
 'zakres - kolumna tekstowa
-'kryteria szukany tekst
+'kryteria - szukany tekst
 'odleglosc - odleglosc miedzy kolumną z liczbami a kolumną tekstową
 
 '      A              B                  C
