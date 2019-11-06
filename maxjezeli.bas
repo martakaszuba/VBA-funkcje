@@ -6,11 +6,11 @@ Function MAXJEZELI(zakres As Range, kryteria As String, odleglosc As Integer)
 'odleglosc - odleglosc miedzy kolumną z liczbami a kolumną tekstową
 
 '      A              B                  C
-'1    Anna           3400           =MAXJEZELI(A1:A4;"Anna";1) => 5700
+'1    Anna           3400           =MAXJEZELI(A1:A5;"Anna";1) => 5700
 '2    Wojtek         4500
 '3    Anna           5700
 '4    Rafał          4300
-'4    Anna           2800
+'5    Anna           2800
 
 Dim num As Integer
 num = 0
